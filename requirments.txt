@@ -1,0 +1,9 @@
+numpy
+scipy
+mne
+matplotlib
+seaborn
+scikit-learn
+tqdm
+pandas
+nilearn   # optional, for brain plotting
