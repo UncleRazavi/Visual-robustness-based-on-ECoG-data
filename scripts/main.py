@@ -14,7 +14,7 @@ from utils import load_subject_data, MVPAAnalyzer, generate_output_folder_name
 def main():
     # ------------------- CONFIGURATION -------------------
     config = {
-        'filepath': r'C:\Users\Mohammadreza\Desktop\Neuromatch CN\Data\faceshouses.npz',
+        'filepath': r'faceshouses.npz',
         'original_sampling_rate': 1000,
         'n_subjects': 7,
         'session_idx': 1,
@@ -99,4 +99,5 @@ def main():
     print(f"{'='*80}")
 
 if __name__ == "__main__":
+
     main()
